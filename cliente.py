@@ -1,10 +1,8 @@
 import urllib.request, json, time
 import pandas as pd
 
-from servico import IS_ALIVE, JOGATINA, SISTEMAS_OPERACIONAIS
-
 # Constantes de rotas do serviço de notícias
-URL_SERVICO = "http://127.0.0.1:5000/"
+URL_SERVICO = "http://172.19.0.2:5000/"
 IS_ALIVE = URL_SERVICO + "isAlive/"
 JOGATINA = URL_SERVICO + "jogatina/"
 SISTEMAS_OPERACIONAIS = URL_SERVICO + "sistemas/"
